@@ -1,4 +1,4 @@
-/* This class will store the  */
+/* This class will store the  details of an employee in an object for future use*/
 public class EmployeeInfo {
     private int empId;
     private String name;
