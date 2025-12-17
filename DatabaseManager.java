@@ -9,7 +9,7 @@ public class DatabaseManager {
     private Connection getConnection() throws SQLException {
         String url = "jdbc:mysql://localhost:3306/employees";
         String user = "root";
-        String password = "trizZy#981_rw";   
+        String password = "1000";   
         return DriverManager.getConnection(url, user, password);
     }
     /* Takes credentials and returns a map with empid and user status(admin or employee) */
